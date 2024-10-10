@@ -5,6 +5,8 @@
 **A website for creating a system to manage a Library .**
 There two kinds of users admin and student . In these website you can view all books you can borrow an avaliable books to borrow and update your profile  as user, in additon admin can view dashboard for all students and books ,can only view student profiles , promote them to be an admin or demote them and can apply CRUD system on books .
 
+
+[Project Video Overview](https://drive.google.com/file/d/1RwMna3FhNnOPB8PGZOzX5pDWIyUCjzeu/view?usp=sharing)
 ## Installtion
 
 1. clone this repository
@@ -40,3 +42,4 @@ There two kinds of users admin and student . In these website you can view all b
 1. Build the project ``` npm run build ```
 
 #### Be default all 15 users have a default image by name Capture.PNG
+
