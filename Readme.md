@@ -15,9 +15,9 @@ There two kinds of users admin and student . In these website you can view all b
 1. Install dependencies
  ``` npm install ``` ```npm run build```
 
-1. Insatll composer ```composer install``
+1. Insatll composer ```composer install```
 1. copy the .env.example to new file .evn  
-   if you use windows run this```copy .env.example .env``
+   if you use windows run this```copy .env.example .env```
    else```cp .env.example .env```
 1. Generate encrytion key ```php artisan key:generate```
 1. Edit database configration in .env to your database
