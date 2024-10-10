@@ -75,7 +75,7 @@
 
                             {{-- these under 4 lines because admin can view all students data but I don't want they to edit student profile so I always check
                             if id for authorization user is the same with the ..... note $user works with admins and users because I pass it in each case that is the Authorization makes a AAmazing Feeling ^_^
-                            I pass $user object (which represents the authenticated user, either admin or student--}}
+                            I pass $user object (which represents the authenticated user, either admin or student --}}
                             @if (Auth::user()->id == $user->id)
                                 <a href="{{ route('user.edit', Auth::user()->id) }}" class="btn btn-warning">Edit
                                     Profile</a>
@@ -84,7 +84,7 @@
                             @can('admin.access')
                                 <a href="/userdashboard" class="btn btn-danger">Back</a>
                             @else
-                                <a href="/book" class="btn btn-danger">Back</a>
+                                <a href="/books" class="btn btn-danger">Back</a>
                             @endcan
                         </div>
                     </div>
