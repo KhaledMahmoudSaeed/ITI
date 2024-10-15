@@ -17,8 +17,6 @@ There two kinds of users admin and student . In these website you can view all b
 3. Install dependencies
 ``` bash
   npm install 
-``` 
-```bash
  npm run build
 ```
 4. Insatll composer
