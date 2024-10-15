@@ -11,13 +11,13 @@ There two kinds of users admin and student . In these website you can view all b
 
 1. clone this repository
 ```bash
-    git clone https://github.com/KhaledMahmoudSaeed/ITI.git
+git clone https://github.com/KhaledMahmoudSaeed/ITI.git
 ```
 2. Navigate to the project directory 
 3. Install dependencies
 ``` bash
-  npm install 
- npm run build
+npm install 
+npm run build
 ```
 4. Insatll composer
 ```bash
@@ -26,15 +26,15 @@ composer install
 5. copy the .env.example to new file .evn  
    if you use windows run this
 ```bash
-   copy .env.example .env
+copy .env.example .env
 ```
    else
 ```bash
-   cp .env.example .env
+cp .env.example .env
 ```
 6. Generate encrytion key 
 ```bash
-    php artisan key:generate
+php artisan key:generate
 ```
 7. Edit database configration in .env to your database
 8. add this in vite.config.js to ensure that your Vite configuration file (usually vite.config.js or vite.config.ts) specifies the correct entry points
@@ -53,20 +53,20 @@ composer install
 ## Usage
 1. Clear the congif cach 
 ```bash
-    php artisan config:cache
+php artisan config:cache
 ```
 2. run this command 
 ```bash
-    php artisan storage:link
+php artisan storage:link
  ```
 3. Navigate to the directory which you clone the project 
 4. Run the server
  ```bash
-    php artisan serve
+php artisan serve
   ```
 5. Build the project 
 ```bash
-    npm run build 
+npm run build 
  ```
 
 #### Be default all 15 users have a default image by name Capture.PNG
